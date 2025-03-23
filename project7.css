@@ -154,8 +154,19 @@ body::selection{
     font-size:20px;
 }
 
+@media (max-width: 380px) {
+
+.bg h1::before {
+    content: "";
+    position: absolute;
+    width: 185px;
+    height: 4px;
+    bottom: -5px;
+    background: linear-gradient(90deg, #ff0080, #00b6ee);
+}
 
 
+}
 
 
 
